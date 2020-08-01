@@ -1,0 +1,28 @@
+h2{
+    color:white;
+    font-family: 'Caveat', cursive;
+    margin-top: 3rem !important;
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
+    background-color:  rgba(0, 0, 0, 0.6);
+}
+
+
+
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.testImg{
+    width: 340px;
+	height: 300px;
+    margin: 12px;
+    transition: all 1s;
+}
+
+.testImg:hover{
+    transform: scale(1.1);
+}
+
